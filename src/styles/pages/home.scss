@@ -23,13 +23,21 @@
 }
 
 .thumbnail .keen-slider__slide {
-    font-size: 30px;
+    font-size: 1.8rem;
     margin-top: 10px;
-    height: 100px;
+    height: 3rem;
+    width: 3rem;
   }
   .thumbnail .keen-slider__slide {
     cursor: pointer;
+    text-align: center;
+    position: absolute;
+    right: 0;
   }
   .thumbnail .keen-slider__slide.active {
     border: 2px dashed white;
   }
+
+#thumbnails .number-slide1 {
+    margin-left: 88vw;
+}

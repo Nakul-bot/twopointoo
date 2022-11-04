@@ -114,8 +114,7 @@ export default class extends Component {
       '#thumbnails', {
         initial: 0,
         slides: {
-          perView: 4,
-          spacing: 10
+          perView: 'auto'
         }
       },
       [this.ThumbnailPlugin(this.sliderComponent)]
