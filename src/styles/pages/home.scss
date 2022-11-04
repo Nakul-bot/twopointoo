@@ -1,0 +1,35 @@
+.home {
+  height: var(--100vh);
+}
+
+.home__wrapper {
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+
+
+.header {
+  position: relative;
+
+  @include media('<=phone') {
+    font-size: 4rem;
+    line-height: 1.05;
+    margin: 15rem auto;
+    width: 31.2rem;
+  }
+}
+
+.thumbnail .keen-slider__slide {
+    font-size: 30px;
+    margin-top: 10px;
+    height: 100px;
+  }
+  .thumbnail .keen-slider__slide {
+    cursor: pointer;
+  }
+  .thumbnail .keen-slider__slide.active {
+    border: 2px dashed white;
+  }
