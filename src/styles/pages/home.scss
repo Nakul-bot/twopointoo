@@ -38,6 +38,24 @@
     border: 2px dashed white;
   }
 
-#thumbnails .number-slide1 {
-    margin-left: 88vw;
+  #thumbnails .number-slide1 {
+    margin-left: 87vw;
+}
+
+.keen-slider__slide-svg {
+    position: absolute;
+    width: 3.5rem;
+    height: 3.5rem;
+    transition: all 3s;
+    overflow: visible;
+}
+
+#thumbnails button {
+    color: $color-white;
+    cursor: pointer;
+    margin: 0 .5rem;
+}
+
+.circle-2 {
+    stroke-dasharray:0, 56.548667764616276
 }
